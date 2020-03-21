@@ -1,0 +1,50 @@
+
+spring:
+  profiles:
+    active: dev
+    
+
+
+
+---
+
+server:
+  port: 80
+  servlet:
+    context-path: /
+
+spring:
+  profiles: dev    
+    
+student:
+  name: 李四
+  age: 34
+
+jdbc:
+  url: hello
+  username: root
+
+user:  
+  id: 2
+  username: 孙悟空
+  
+  
+---
+
+
+server:
+  port: 80
+  servlet:
+    context-path: /
+
+spring:
+  profiles: pro
+        
+    
+student:
+  name: 王五
+  age: 35 
+
+jdbc:
+  url: index
+  username: root  
