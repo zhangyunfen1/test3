@@ -1,7 +1,7 @@
 package zyf.tets1;
 
 public class A {
-	int i; 
+	int i=2; 
 	public A() {
 		System.out.println("¹¹Ôì·½·¨");
 	}
