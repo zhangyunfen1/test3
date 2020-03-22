@@ -1,15 +1,15 @@
 package zyf.tets1;
 
 public class A {
-	
+	int i; 
 	public A() {
-		System.out.println("¹¹Ôì·½·¨");
+		System.out.println("Â¹Â¹Ã”Ã¬Â·Â½Â·Â¨");
 	}
 	public static void main(String[] args) {
 		new A();
 	}
 	static {
-		System.out.println("¾²Ì¬´úÂë¿é");
+		System.out.println("Â¾Â²ÃŒÂ¬Â´ÃºÃ‚Ã«Â¿Ã©");
 	}
 }
 class F{
