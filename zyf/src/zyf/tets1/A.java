@@ -1,7 +1,7 @@
 package zyf.tets1;
 
 public class A {
-	F f = new F();
+	
 	public A() {
 		System.out.println("构造方法");
 	}
